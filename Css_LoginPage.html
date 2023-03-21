@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login_Page</title>
+    <style>
+        body {
+            background-image: url(image/body-bg.gif);
+            text-align: center;
+            padding: 20px;
+            color: white;
+            margin-top: 70px;
+        }
+        .head{
+            width: 320px;
+            margin: auto;
+            background:darkred;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .login-page {
+            width: 360px;
+            margin: auto;
+        }
+
+        .form {
+            position: relative;
+            background: black;
+            max-width: 360px;
+            padding: 65px;
+            text-align: center;
+        }
+
+        .form input {
+            font-family: "Roboto", sans-serif;
+            background: #f2f2f2;
+            width: 100%;
+            border: 0;
+            margin: 0 0 15px;
+            padding: 15px;
+            box-sizing: border-box;
+            font-size: 14px;
+        }
+
+        .form button {
+            font-family: "Roboto", sans-serif;
+            text-transform: uppercase;
+            outline: 0;
+            background: Green;
+            width: 100%;
+            border: 0;
+            padding: 15px;
+            color: white;
+            font-size: 14px;
+            cursor: pointer;
+        }
+        .form a{
+            text-decoration: none;
+            color: red;
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-weight: bold;
+        }
+
+        .form button:hover {
+            background: darkgoldenrod;
+        }
+
+        .form .message {
+            margin: 15px 0 0;
+            color: #b3b3b3;
+            font-size: 14px;
+        }
+
+        .form .message a {
+            color: #4CAF50;
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="head">
+        <h1>LOGIN PAGE</h1>
+    </div>
+    <div class="login-page">
+        <div class="form">
+            <form class="login-form">
+                <input type="text" placeholder="username" />
+                <input type="password" placeholder="password" />
+                <button><a href="index.html">Login</a></button>
+                <p class="message">Not registered? <a href="#">Create an account</a></p>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
